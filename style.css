@@ -1,0 +1,66 @@
+.header{
+    float: center;
+    background: black;
+    padding: 3.5%;
+    height: 10%;
+    color: black;
+
+
+}
+
+.inner-header{
+    font-size: 40px;
+    text-align: center;
+    background: black;
+    color: white;
+    font-style: italic;
+    font-variant: small-caps;
+    text-transform: capitalize;
+}
+
+.navigation{
+    float: center;
+    height: 100%;
+}
+
+.navigation a{
+    height: 100%;
+    display: table;
+    float: right;
+    padding: 0px 40px;
+    background-color: #101010;
+    text-decoration: none;
+}
+
+.navigation a li{
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 25px;
+    color: white;
+}
+
+.navigation a:hover{
+    background-color: gray;
+    color: #101010;
+}
+
+.content p {
+    text-align: left;
+    font-size: 50px;
+}
+img {
+    float: left;
+    width: 500px;
+}
+
+table {
+	width: 100%;
+	margin-bottom: 20px;
+	border-collapse: collapse;
+}
+table td {
+	border: 5px solid #000;
+	border-left: none;
+	border-right: none;
+
+}
